@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>好きな気持ちを伝えたい</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #ffe4e1;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 400px;
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h1 {
+      color: #ff6b6b;
+      font-size: 1.8em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1em;
+      color: #333333;
+      line-height: 1.5em;
+      margin: 10px 0;
+    }
+
+    .buttons {
+      margin-top: 20px;
+    }
+
+    button {
+      width: 100%;
+      max-width: 300px;
+      background-color: #ff6b6b;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 12px;
+      font-size: 1em;
+      cursor: pointer;
+      margin: 10px 0;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #ff4c4c;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>あおちゃんへ</h1>
+    <p>実は、ずっと伝えたかったことがあります。</p>
+    <p>私はあおちゃんのことが好きです。</p>
+    <p>これからも一緒にいられたら嬉しいです。</p>
+    <div class="buttons">
+      <button onclick="alert('ありがとう！嬉しいです！')">OK</button>
+      <button onclick="alert('考える時間が欲しいです。')">考えさせて</button>
+      <button onclick="alert('ごめんなさい。でもありがとう！')">ごめんなさい</button>
+    </div>
+  </div>
+</body>
+</html>
